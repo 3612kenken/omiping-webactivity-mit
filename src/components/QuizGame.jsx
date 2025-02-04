@@ -86,7 +86,7 @@ function QuizGame() {
          
       <div class="main"> 
    
-        <div class="signup"> 
+        <div class="main-panel"> 
      
         <form>
         <label for="chk" aria-hidden="true">Quiz App</label>
