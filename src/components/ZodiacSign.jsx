@@ -69,7 +69,7 @@ const [month, setMonth] = useState("");
           ))}
         </select>
       </div>
-      <button
+      <button class={"btn"} 
        
         onClick={calculateZodiac}
       >
