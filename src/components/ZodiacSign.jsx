@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import  "./style.css";
+import  "./css/style.css";
 
 const zodiacSigns = [
     { sign: "Capricorn", start: "12-22", end: "01-19", symbol: "♑" },

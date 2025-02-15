@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect  } from "react";
-import  "./style.css";
+import  "./css/style.css";
 
 function Quiz(){
 const [question, setQuestion] = useState([]);

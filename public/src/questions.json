@@ -1,0 +1,210 @@
+[
+      {
+        "question": "What does REST stand for?",
+        "options": ["Representational State Transfer", "Resource State Transfer", "Recursive State Transfer", "Relational State Transfer"],
+        "answer": "Representational State Transfer"
+      },
+      {
+        "question": "Which HTTP method is used to retrieve data from the server?",
+        "options": ["POST", "GET", "PUT", "DELETE"],
+        "answer": "GET"
+      },
+      {
+        "question": "What does JSON stand for?",
+        "options": ["JavaScript Object Notation", "Java Syntax Object Notation", "Java Standard Object Notation", "JQuery Object Notation"],
+        "answer": "JavaScript Object Notation"
+      },
+      {
+        "question": "Which HTTP status code represents a successful request?",
+        "options": ["200", "404", "500", "301"],
+        "answer": "200"
+      },
+      {
+        "question": "Which method is typically used to update existing resources in RESTful APIs?",
+        "options": ["POST", "GET", "PUT", "DELETE"],
+        "answer": "PUT"
+      },
+      {
+        "question": "Which of the following HTTP status codes is returned when a requested resource is not found?",
+        "options": ["200", "404", "503", "400"],
+        "answer": "404"
+      },
+      {
+        "question": "In a REST API, which component handles the request and generates a response?",
+        "options": ["Client", "Server", "Database", "Router"],
+        "answer": "Server"
+      },
+      {
+        "question": "What does a JSON response look like?",
+        "options": ["{ key: value }", "{ key: 'value' }", "{ 'key': 'value' }", "{ 'key': value }"],
+        "answer": "{ 'key': 'value' }"
+      },
+      {
+        "question": "Which of the following HTTP methods is used to delete a resource from the server?",
+        "options": ["POST", "GET", "PUT", "DELETE"],
+        "answer": "DELETE"
+      },
+      {
+        "question": "What is the purpose of the 'Content-Type' header in an HTTP request?",
+        "options": ["Specifies the type of content in the response", "Specifies the format of the request body", "Indicates the content encoding", "Defines the request method"],
+        "answer": "Specifies the format of the request body"
+      },
+      {
+        "question": "Which of the following is a common format for API responses?",
+        "options": ["XML", "HTML", "JSON", "YAML"],
+        "answer": "JSON"
+      },
+      {
+        "question": "What is the use of a 401 HTTP status code?",
+        "options": ["Unauthorized", "Bad Request", "Not Found", "Internal Server Error"],
+        "answer": "Unauthorized"
+      },
+      {
+        "question": "What is an endpoint in an API?",
+        "options": ["A URL representing a specific resource or service", "A server that handles all API requests", "The client software used to make requests", "The process of creating an API"],
+        "answer": "A URL representing a specific resource or service"
+      },
+      {
+        "question": "Which HTTP method would you use to create a new resource?",
+        "options": ["POST", "GET", "PUT", "PATCH"],
+        "answer": "POST"
+      },
+      {
+        "question": "What does the 'Authorization' header in an HTTP request typically contain?",
+        "options": ["Content-Type", "Bearer token", "User agent information", "Cookies"],
+        "answer": "Bearer token"
+      },
+      {
+        "question": "Which of the following status codes indicates a successful creation of a resource?",
+        "options": ["200", "201", "204", "400"],
+        "answer": "201"
+      },
+      {
+        "question": "What is CORS in the context of APIs?",
+        "options": ["Cross-Origin Resource Sharing", "Cross-Origin Request Security", "Cross-Origin Response Sharing", "Content-Origin Resource Sharing"],
+        "answer": "Cross-Origin Resource Sharing"
+      },
+      {
+        "question": "Which header is used to specify the format of the response body in an HTTP request?",
+        "options": ["Accept", "Authorization", "Content-Type", "User-Agent"],
+        "answer": "Accept"
+      },
+      {
+        "question": "What does an API client do?",
+        "options": ["Handles the request/response cycle", "Creates and stores API keys", "Authenticates API requests", "Monitors API performance"],
+        "answer": "Handles the request/response cycle"
+      },
+      {
+        "question": "Which HTTP method would you use to partially update a resource?",
+        "options": ["POST", "GET", "PUT", "PATCH"],
+        "answer": "PATCH"
+      },
+      {
+        "question": "Which of the following is NOT a valid HTTP status code?",
+        "options": ["200", "300", "502", "600"],
+        "answer": "600"
+      },
+      {
+        "question": "Which of the following is an example of a valid JSON format?",
+        "options": ["{key: value}", "{'key': value}", "{'key': 'value'}", "{'key'='value'}"],
+        "answer": "{'key': 'value'}"
+      },
+      {
+        "question": "What does the 'Accept' header in an HTTP request specify?",
+        "options": ["The format in which the client expects the response", "The type of resource being requested", "The content encoding", "The request method"],
+        "answer": "The format in which the client expects the response"
+      },
+      {
+        "question": "What is the purpose of the 'Location' header in an HTTP response?",
+        "options": ["Indicates the URI of a newly created resource", "Defines the location of the server", "Specifies the MIME type of the response", "Redirects to another URL"],
+        "answer": "Indicates the URI of a newly created resource"
+      },
+      {
+        "question": "What is rate limiting in APIs?",
+        "options": ["Limiting the number of requests a user can make to the API", "Limiting the size of the response body", "Limiting the number of users that can access the API", "Limiting the time to process requests"],
+        "answer": "Limiting the number of requests a user can make to the API"
+      },
+      {
+        "question": "What is the typical use case for the PUT method in REST?",
+        "options": ["To create a new resource", "To delete a resource", "To update an existing resource", "To retrieve data from the server"],
+        "answer": "To update an existing resource"
+      },
+      {
+        "question": "What does the HTTP status code 503 indicate?",
+        "options": ["Server is down", "Unauthorized", "Service unavailable", "Internal server error"],
+        "answer": "Service unavailable"
+      },
+      {
+        "question": "Which of the following represents a successful HTTP request for creating a resource?",
+        "options": ["200 OK", "201 Created", "204 No Content", "302 Found"],
+        "answer": "201 Created"
+      },
+      {
+        "question": "What is an API key?",
+        "options": ["A unique identifier used to authenticate a user", "A token used to identify a session", "A parameter to specify a type of response", "A method for encrypting requests"],
+        "answer": "A unique identifier used to authenticate a user"
+      },
+      {
+        "question": "Which HTTP method is used to request a representation of a resource without modifying it?",
+        "options": ["GET", "POST", "PUT", "DELETE"],
+        "answer": "GET"
+      },
+      {
+        "question": "Which header is typically used to send authentication information in an HTTP request?",
+        "options": ["Authorization", "Content-Type", "Accept", "User-Agent"],
+        "answer": "Authorization"
+      },
+      {
+        "question": "In an API, what does a response code 400 mean?",
+        "options": ["Bad Request", "Not Found", "Server Error", "Success"],
+        "answer": "Bad Request"
+      },
+      {
+        "question": "What is the output of the following Python code?\n\nprint(5 // 2)",
+        "options": ["2.5", "2", "3", "2.0", "3.0", "4.0"],
+        "answer": "2"
+      },
+      {
+        "question": "Which of the following languages is primarily used for web development?",
+        "options": ["C++", "Java", "JavaScript", "Python"],
+        "answer": "JavaScript"
+      },
+      {
+        "question": "Which of the following is NOT an OOP principle?",
+        "options": ["Encapsulation", "Inheritance", "Compilation", "Polymorphism"],
+        "answer": "Compilation"
+      },
+      {
+        "question": "What does SQL stand for?",
+        "options": [
+          "Structured Query Language",
+          "Sequential Query Language",
+          "System Query Language",
+          "Standard Query Language"
+        ],
+        "answer": "Structured Query Language"
+      },
+      {
+        "question": "Which data structure uses the LIFO (Last In, First Out) principle?",
+        "options": ["Queue", "Stack", "Linked List", "Heap"],
+        "answer": "Stack"
+      },
+      {
+        "question": "What is the default port for HTTP?",
+        "options": ["21", "80", "443", "25"],
+        "answer": "80"
+      },
+      {
+        "question": "Which of the following sorting algorithms has the worst-case time complexity of O(n²)?",
+        "options": ["Merge Sort", "Quick Sort", "Bubble Sort", "Heap Sort"],
+        "answer": "Bubble Sort"
+      },
+      {
+        "question": "In Java, which keyword is used to define a subclass?",
+        "options": ["implements", "extends", "inherits", "super"],
+        "answer": "extends"
+      }
+      
+      
+    ]
+  
