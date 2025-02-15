@@ -98,13 +98,13 @@ export default function QuizGame(){
               document.getElementById("head-contents").innerHTML = "The correct answer is <b>" + QuestionAnswers[currentQuestion].answer + "</b>";
               console.log("Wrong Answer");
               if (currentQuestion < QuestionAnswers.length - 1) {
-                setCurrentQuestion(Math.floor(Math.random()* QuestionAnswers.length));  
+                setCurrentQuestion(Math.floor(Math.random()* QuestionAnswers.length-1));  
                 setQindex(qindex+1);
                } 
             }
 
             if (currentQuestion < QuestionAnswers.length - 1) {
-              setCurrentQuestion(Math.floor(Math.random()* QuestionAnswers.length));  
+              setCurrentQuestion(Math.floor(Math.random()* QuestionAnswers.length-1));  
               setQindex(qindex+1);
                 setIndexForm(1);     
             } else {
@@ -320,13 +320,13 @@ try {
               );
               
             }else{
-            
+            const curQuest = Math.floor(Math.random()* QuestionAnswers.length-1);
                 return(
                 <> 
-                <h2>Question {qindex}: {QuestionAnswers[currentQuestion].question}</h2>
+                <h2>Question {qindex}: {QuestionAnswers[curQuest].question}</h2>
                 <div className="btn-container">
                     {
-                    QuestionAnswers[currentQuestion].options.map((answer) => (
+                    QuestionAnswers[curQuest].options.map((answer) => (
                     <button class={"nbtn"}  key={answer} onClick={() => handleAnswer(answer)}>{answer}</button>
                     ))
                     }
